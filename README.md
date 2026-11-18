@@ -49,11 +49,13 @@ Os testes demonstraram o bloqueio da tentativa específica de SQL Injection pelo
 
 Resultado do teste realizado sem a proteção do WAF.
 
-![Teste direto](Captura de tela_10-11-2026_204935_localhost)
+<img width="1453" height="837" alt="aplicacaoatacada" src="https://github.com/user-attachments/assets/2dc5078e-a538-46bd-8990-6007a3ec0c9c" />
+
 
 ### 2. Acesso protegido pelo WAF
 
 Resultado do teste realizado passando pelo ModSecurity.
 
-![Teste com WAF](Captura de tela_10-11-2026_204850_localhost)
+<img width="1453" height="837" alt="aplicacaowaf" src="https://github.com/user-attachments/assets/f0a8c080-fb81-495b-8516-1a73ed4b1887" />
+
 
