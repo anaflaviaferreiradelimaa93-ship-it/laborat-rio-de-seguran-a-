@@ -42,6 +42,18 @@ Nos registros do ModSecurity, foram identificadas as regras 942100 e 949110 dura
 
 Os testes demonstraram o bloqueio da tentativa específica de SQL Injection pelo WAF e o funcionamento do monitoramento visual. Os registros também permitiram identificar a regra responsável pela detecção e pelo bloqueio.
 
-## Evidências
 
-Nesta seção serão disponibilizados registros, imagens e vídeo da demonstração prática do laboratório.
+## Evidências dos testes
+
+### 1. Acesso direto à aplicação
+
+Resultado do teste realizado sem a proteção do WAF.
+
+![Teste direto](Captura de tela_10-11-2026_204935_localhost)
+
+### 2. Acesso protegido pelo WAF
+
+Resultado do teste realizado passando pelo ModSecurity.
+
+![Teste com WAF](Captura de tela_10-11-2026_204850_localhost)
+
